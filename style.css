@@ -1,0 +1,223 @@
+
+:root {
+    --primary: #1c48f0;
+    --secondary: #63c3d2;
+    --light: #FAFAFB;
+    --dark: #12141D;
+    --font-base: 'Open sans', sans-serif;
+    --transition: all 0.5s ease
+}
+
+body{
+    font-family: var(--font-base);
+}
+
+h5, h6 .h5, .h6{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    transition: var(--transition);
+}
+a:hover{
+    color: rgb(112, 108, 108);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.icon i{
+    font-size: 20px;
+    color: #939393;
+    margin-left: 6px;
+}
+.icon i:hover{
+    font-size: 20px;
+    color: var(--primary);
+}
+
+/* Nav-header */
+
+.transparent-navbar {
+    background-color:none;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+.fixed-top {
+    background-color: var(--primary); /* change to your desired color */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 20px 15px;
+    color: var(--light);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right:24px;
+}
+
+.btn-signup{
+    background-color:var(--light);
+    color: var(--secondary);
+   
+
+}
+
+
+/* Header */
+
+#header{
+    background: url(assets/src/SL-120722-54400-15.jpg);
+    height: 100vh;
+    color: var(--light);
+    background-position: center;
+    background-size: cover;
+}
+#header h1{
+    font-weight: 600;
+}
+
+#form-label{
+    border-radius: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.btn-search{
+    font-size: 12px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.btn-search:hover{
+    color: rgb(177, 177, 177);
+}
+.square-box {
+    width: 30px; 
+    height: 30px; 
+    background-color: #007bff;
+}
+
+/* Why Choose Us */
+.why h5{
+    font-size: 1.5rem;
+}
+
+
+/* Available Jobs */
+#jobs{
+    background-color: #F6FCFF;
+} 
+
+.text-end .btn{
+    background-color: var(--light);
+    border: none;
+}
+.text-end .btn:hover{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.blue-button .btn{
+    background-color: var(--primary);
+    color: var(--light);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.blue-button .btn:hover{
+    background-color: #F6FCFF;
+    border: solid 1px;
+    border-color: #007bff;
+    color: var(--primary);
+
+}
+
+ .inner-card{
+    background:var(--light);
+    border-radius:12px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding:20px;
+    box-shadow: -2px 4px 6px rgb(1,1,1,0.10);
+    }
+.inner-card:hover{
+    background:var(--primary);
+    color: var(--light);
+}
+.inner-card h5{
+    color: var(--secondary);
+}
+
+.inner-card i{
+    color: var(--secondary);
+    font-size: 1.5rem;
+}
+
+/* Reviews */
+.review-img{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    object-fit:cover; 
+    position: absolute;
+}
+/* SUBSCRIBE */
+#subscibe{
+    background-image: linear-gradient(to right,var(--primary), var(--secondary));
+
+}
+
+#email-label{
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.btn-subscribe{
+    margin-left: -50px;
+    font-size: 12px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+.list-unstyled a{
+    color: #939393;
+}
+
+.list-unstyled a:hover{
+    color: var(--primary)
+}
+
+.btn-signin{
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+.btn-signup-sec{
+    border-radius: 5px;
+    background-color: var(--light);
+    color: var(--primary);
+    border: solid 1px;
+    border-color: var(--primary);
+}
